@@ -5,7 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-wordlisttxt = open("wordlist.txt","r")
+wordlist_name = input("Please enter your wordlist file's name : ")
+
+wordlisttxt = open(f"{wordlist_name}.txt","r")
 
 wordlist = wordlisttxt.readlines()
 
