@@ -1,5 +1,5 @@
-You should create a wordlist in "txt" format. Then rename it "wordlist".
-Also you should install python's selenium library.
+You should create a wordlist in "txt" format.
+Also you need python3 and should install python's selenium library.
 
 For Windows and MacOS use this commands :
 
